@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
-  },
+ env: {
+    name: 'My Custom Registry',
+    description: 'The official store for My Custom supported workspaces.',
+    icon: '/img/my_custom_logo.svg',
+    listUrl: 'https://mycustomregistry.com/',
+    contactUrl: 'https://mycustomregistry.com/support',
+},
   reactStrictMode: true,
   swcMinify: true,
   basePath: '/kasm-registry/1.0',
